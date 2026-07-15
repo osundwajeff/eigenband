@@ -38,7 +38,6 @@ class EigenbandPlugin:
         """
         self.iface = iface
         self.log = PlgLogger().log
-        
 
         # translation
         # initialize the locale
@@ -90,7 +89,7 @@ class EigenbandPlugin:
 
         # -- Menu
         self.iface.addPluginToMenu(__title__, self.action_settings)
-        self.iface.addPluginToMenu(__title__, self.action_help)# -- Help menu
+        self.iface.addPluginToMenu(__title__, self.action_help)  # -- Help menu
 
         # documentation
         self.iface.pluginHelpMenu().addSeparator()
