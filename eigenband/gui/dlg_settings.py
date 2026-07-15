@@ -89,7 +89,7 @@ class ConfigOptionsPage(QgsOptionsPageWidget):
                 ),
             )
         )
-        
+
         self.btn_reset.setIcon(QIcon(QgsApplication.iconPath("mActionUndo.svg")))
         self.btn_reset.pressed.connect(self.on_reset_settings)
 
