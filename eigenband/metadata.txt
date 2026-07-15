@@ -1,0 +1,26 @@
+[general]
+name=EigenBand
+description=Multi-Band Dimensionality Reduction Tool!
+category=Raster
+hasProcessingProvider=False
+about=EigenBand brings classical machine learning dimensionality reduction directly into the QGIS canvas. It flattens multi-spectral rasters (like Sentinel-2 or Landsat), applies Principal Component Analysis (PCA) via scikit-learn, and automatically generates and styles a new 3-band RGB raster based on the top principal components. Perfect for geological mapping, vegetation analysis, and feature extraction.
+icon=resources/images/default_icon.png
+tags=pyqgis,Machine Learning,linear algebra,PCA
+
+# credits and contact
+author=Jeff Osundwa
+email=jeffosundwa1@gmail.com
+homepage=https://github.com/osundwajeff/eigenband/pages
+repository=https://github.com/osundwajeff/eigenband
+tracker=https://github.com/osundwajeff/eigenband/issues/
+
+# QGIS context
+deprecated=False
+experimental=True
+plugin_dependencies=
+qgisMinimumVersion=3.40.4
+qgisMaximumVersion=4.10.16
+
+# versioning
+version=0.1.0
+changelog=
